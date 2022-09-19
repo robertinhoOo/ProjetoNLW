@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-style;
+}
+
+body * {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    background-image: url(./assets//Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+main {
+    max-width: 580px;
+    margin: auto;
+}
+section {
+    color: white;
+}
+
+section ul {
+    margin-top: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.games-list img {
+    border-radius: 8px;
+    width: 90px;
+}
+
+.channels-list img {
+    border-radius: 50%;
+    width: 70px;
+}
